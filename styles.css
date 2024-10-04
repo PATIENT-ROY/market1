@@ -26,16 +26,16 @@ body {
   margin-left: 250px;
   
 }
-.header .container{
+.header .header_container{
   display: flex;
   align-items: center;
 
 }
 
-.container {
+.header_container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  
 }
 
 .logo img {
@@ -59,10 +59,13 @@ body {
 .menu a:hover{
   border-bottom: 2px solid white;
 }
-
+.main_container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .hero {
  padding-top: 162px;
- padding-bottom: 200ps;
+ padding-bottom: 200px;
 }
 
 .hero .title {
@@ -73,14 +76,14 @@ body {
   margin-bottom: 20px;
 }
 
-.hero .main-text {
+.hero .main_text {
   min-width: 697px;
   font-size: 17px;
   line-height: 130%;
   color: white;
   margin-bottom: 40px;
 }
-.main-info{
+.main_info{
   max-width: 811px;
 }
 
@@ -100,7 +103,7 @@ body {
 .hero .button:hover {
   background-color: yellow;
 }
-.main-image{
+.main_image{
   position: absolute;
   top: 0;
   right: 0;
