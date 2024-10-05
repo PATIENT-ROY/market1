@@ -65,6 +65,10 @@ body {
 .menu a:hover{
   border-bottom: 2px solid white;
 }
+.main{
+  position: relative;
+  overflow: hidden;
+}
 .main_container {
   max-width: 1200px;
   margin: 0 auto;
@@ -117,6 +121,7 @@ body {
 }
 .products{
   padding: 0 100px;
+  position: relative;
 }
 .products-container {
   max-width: 1200px;
@@ -228,6 +233,7 @@ body {
 }
 .products-formit{
   padding: 64px 0 150px 0;
+  position: relative;
 }
 .formit {
   display: flex;
@@ -318,4 +324,22 @@ button[type="submit"]:hover {
   margin-top: 14px;
   font-size: 18px;
   line-height: 130%;
+}
+.line1{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: calc(100% - 960px);
+}
+.line2{
+  position: absolute;
+  z-index: -1;
+  top: -40;
+  left: 0;
+}
+.line3{
+  position: absolute;
+  z-index: -1;
+  top: -920px;
+  left: 0;
 }
